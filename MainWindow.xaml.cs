@@ -123,7 +123,7 @@ namespace Ch7_TCP_Server
                     {
                         case "0":
                             HT.Add(Str, sck);
-                            Dispatcher.BeginInvoke(new Action(() =>
+                            Dispatcher.Invoke(new Action(() =>
                             {
                                 listBox.Items.Add(Str);
                             }));
@@ -132,7 +132,7 @@ namespace Ch7_TCP_Server
 
                         case "9":
                             HT.Remove(Str);
-                            Dispatcher.BeginInvoke(new Action(() =>
+                            Dispatcher.Invoke(new Action(() =>
                             {
                                 listBox.Items.Remove(Str);
                             }));

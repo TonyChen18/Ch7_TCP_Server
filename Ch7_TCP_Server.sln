@@ -5,6 +5,11 @@ VisualStudioVersion = 15.0.28010.2048
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch7_TCP_Server", "Ch7_TCP_Server.csproj", "{F6E371AD-ADDC-4E85-BA28-A7FF08299394}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch7_TCP_Client", "..\Ch7_TCP_Client\Ch7_TCP_Client.csproj", "{C7AAFD0E-63EE-47B1-9488-F3983469D21C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F6E371AD-ADDC-4E85-BA28-A7FF08299394} = {F6E371AD-ADDC-4E85-BA28-A7FF08299394}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +20,10 @@ Global
 		{F6E371AD-ADDC-4E85-BA28-A7FF08299394}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6E371AD-ADDC-4E85-BA28-A7FF08299394}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6E371AD-ADDC-4E85-BA28-A7FF08299394}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7AAFD0E-63EE-47B1-9488-F3983469D21C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7AAFD0E-63EE-47B1-9488-F3983469D21C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7AAFD0E-63EE-47B1-9488-F3983469D21C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7AAFD0E-63EE-47B1-9488-F3983469D21C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
